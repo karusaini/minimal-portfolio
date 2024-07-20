@@ -8,7 +8,7 @@ const nextConfig = {
 };
 
 export default withSentryConfig(nextConfig, {
-  org: "banking-rr",
+  org: "minimal-portfolio",
   project: "javascript-nextjs",
 
   silent: !process.env.CI,
